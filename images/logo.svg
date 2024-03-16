@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.33 345.74">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #35b5ab;
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke-miterlimit: 8;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #010101;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #010101;
+        stroke-width: 1.33px;
+      }
+    </style>
+  </defs>
+  <path class="cls-5" d="m.67,149.5C.67,69.97,61.11,5.5,135.67,5.5s135,64.47,135,144-60.44,144-135,144S.67,229.03.67,149.5Z"/>
+  <path class="cls-4" d="m39.67,149.5c0-56.89,42.98-103,96-103s96,46.11,96,103-42.98,103-96,103-96-46.11-96-103Z"/>
+  <path class="cls-1" d="m256.1,216.54l-64,65-64-65h128Z"/>
+  <path class="cls-3" d="m255.92,345.74l-64-64.5,64-64.5v129Z"/>
+  <path class="cls-2" d="m31.97,53.7C80.04-7.73,165.21-15.53,222.2,36.28c5.88,5.35,11.33,11.22,16.28,17.57l-32.61,29.56c-31.74-43.55-89.13-50.16-128.18-14.76-4.82,4.37-9.23,9.28-13.16,14.65l-32.57-29.6Z"/>
+</svg>
