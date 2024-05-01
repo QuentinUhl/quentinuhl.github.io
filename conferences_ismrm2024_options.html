@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Conferences - Quentin Uhl</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Quentin Uhl</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="aboutme.html#">About me</a></li>
+								<li><a href="research.html#">Research</a></li>
+								<li><a href="conferences.html#">Conferences</a></li>
+								<li><a href="projects.html#">Personal Projects</a></li>
+								<li><a href="contact.html#">Contact</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="aboutme.html">
+											<h3>About me</h3>
+											<p>A small introduction</p>
+										</a>
+									</li>
+									<li>
+										<a href="research.html">
+											<h3>Research</h3>
+											<p>A quick tour of my research</p>
+										</a>
+									</li>
+									<li>
+										<a href="conferences.html">
+											<h3>Conferences</h3>
+											<p>My presentations and posters</p>
+										</a>
+									</li>
+									<li>
+										<a href="projects.html">
+											<h3>Personal Projects</h3>
+											<p>Explore some of my ongoing projects</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="contact.html" class="button large fit">Contact</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Ongoing -->
+						<h2 id="ongoing">ISMRM Annual Meeting 2024</h2>
+							<div style="display: flex; flex-wrap: wrap;">
+								<article class="post column">
+									<!-- Content for the first column goes here -->
+									<h2><a href="conferences_ismrm2024.html">Presentations</a></h2>
+									<p class="projectp">Gray Matter Microstructure modelling using NEXI, Myelin Water Fraction and GEM, the new Generalized Exchange Model. Presentations & posters from the Annual Meeting.</p>
+									<a href="conferences_ismrm2024.html" style="border-bottom: 0;"><img src="images/Figure_brain_viridis_gem_ismrm2024.png" alt="" class="projectimg"/></a>
+									<footer class="projectfooter">
+										<ul class="actions">
+											<li><a href="conferences_ismrm2024.html" class="button medium">Learn more</a></li>
+											<!-- <li><a href="#" class="icon solid fa-heart">28</a></li> -->
+										</ul>
+									</footer>
+								</article>
+								<article class="post column">
+									<!-- Content for the second column goes here -->
+									<h2><a href="https://github.com/QuentinUhl/graymatter_swissknife" target="_blank">GitHub Repo</a></h2>
+									<p class="projectp">To estimate any gray matter model parameters with Nonlinear Least Squares or Machine Leaning.</p>
+									<a href="https://github.com/QuentinUhl/graymatter_swissknife" target="_blank" style="border-bottom: 0;"><img src="images/gm_swissknife_square_low_res.png" alt="" class="projectimg"/></a>
+									<footer class="projectfooter">
+										<ul class="actions">
+											<li><a href="https://github.com/QuentinUhl/graymatter_swissknife" class="button medium">Code repo</a></li>
+											<!-- <li><a href="#" class="icon solid fa-heart">28</a></li> -->
+										</ul>
+									</footer>
+								</article>
+								<article class="post column">
+									<!-- Content for the third column goes here -->
+									<h2><a href="research.html">My PhD</a></h2>
+									<p class="projectp">Learn more about my research.</p>
+									<a href="research.html" style="border-bottom: 0;"><img src="images/MRI_square.png" alt="" class="projectimg"/></a>
+									<footer class="projectfooter">
+										<ul class="actions">
+											<li><a href="research.html" class="button medium">Learn more</a></li>
+											<!-- <li><a href="#" class="icon solid fa-heart">28</a></li> -->
+										</ul>
+									</footer>
+								</article>
+							</div>
+
+					</div>
+					<script>
+					
+						var articles = document.querySelectorAll('article');
+	
+						for (var i = 0; i < articles.length; i++) {
+							var img = articles[i].querySelector('img');
+							var h2 = articles[i].querySelector('h2');
+							
+							img.addEventListener('mouseenter', (function(img, h2) {
+								return function() {
+									h2.style.color = '#2ebaae';
+								};
+							})(img, h2));
+							img.addEventListener('mouseleave', (function(img, h2) {
+								return function() {
+									h2.style.color = 'inherit';
+								};
+							})(img, h2));
+						}
+						
+						var images = document.getElementsByTagName('img');
+	
+						for (var i = 0; i < images.length; i++) {
+							images[i].addEventListener('mouseenter', function() {
+								for (var j = 0; j < images.length; j++) {
+									if (images[j] !== this) {
+										images[j].style.filter = 'grayscale(100%)';
+									}
+								}
+							});
+							images[i].addEventListener('mouseleave', function() {
+								for (var j = 0; j < images.length; j++) {
+									images[j].style.filter = 'none';
+								}
+							});
+						}
+						</script>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/quentin-uhl/" class="icon brands fa-linkedin" target="_blank"><span class="label" target="_blank">LinkedIn</span></a></li>
+							<li><a href="https://github.com/QuentinUhl" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+							<li><a href="https://www.facebook.com/quentin.uhl" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/quentin_uhl/" class="icon brands fa-instagram" target="_blank"><span class="label" target="_blank">Instagram</span></a></li>
+							<li><a href="mailto:quentin.uhl@chuv.ch" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Quentin Uhl. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Images: <a href="http://unsplash.com" target="_blank">Unsplash</a>.</p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
